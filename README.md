@@ -52,8 +52,6 @@ spur-ai-chat/
 │
 └─ README.md
 
-yaml
-Copy code
 
 ---
 
@@ -66,9 +64,6 @@ cd backend
 npm install
 npm run dev
 Backend runs at:
-
-arduino
-Copy code
 http://localhost:5000
 2. Start Frontend
 No install required.
@@ -157,5 +152,3 @@ Production-minded error handling
 
 AI-ready architecture
 
-markdown
-Copy code
