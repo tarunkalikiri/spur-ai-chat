@@ -9,9 +9,9 @@ This project simulates a live chat widget where user messages are sent to a back
 ## Features
 
 - Live chat UI (HTML-based widget)
-- Backend API using **Node.js + TypeScript**
+- Backend API using Node.js + TypeScript
 - Session-based conversations
-- Message persistence with **SQLite**
+- Message persistence with SQLite
 - AI response layer (mocked, LLM-ready)
 - Graceful error handling and input validation
 - No authentication required
@@ -20,17 +20,17 @@ This project simulates a live chat widget where user messages are sent to a back
 
 ## Tech Stack
 
-**Backend**
+### Backend
 - Node.js
 - TypeScript
 - Express
 - SQLite
 - ts-node-dev
 
-**Frontend**
+### Frontend
 - Plain HTML + JavaScript (no build tools)
 
-**AI Layer**
+### AI Layer
 - Rule-based mock AI
 - Easily replaceable with OpenAI / Claude
 
@@ -52,18 +52,23 @@ spur-ai-chat/
 │
 └─ README.md
 
+yaml
+Copy code
+
+---
 
 ## How to Run Locally
 
 ### 1. Start Backend
 
-``bash
+```bash
 cd backend
 npm install
 npm run dev
 Backend runs at:
 
-
+arduino
+Copy code
 http://localhost:5000
 2. Start Frontend
 No install required.
@@ -150,4 +155,7 @@ Clean API and system design
 
 Production-minded error handling
 
-AI-ready architecture 
+AI-ready architecture
+
+markdown
+Copy code
